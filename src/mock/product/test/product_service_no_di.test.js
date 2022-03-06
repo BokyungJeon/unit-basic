@@ -1,7 +1,7 @@
 // 흔하게 사용되지만 mock을 남용하는 방식
 
-const ProductService = require('../product_service_no_di.js');
-const ProductClient = require('../product_client.js');
+const ProductService = require('../product_service_no_di');
+const ProductClient = require('../product_client');
 jest.mock('../product_client');
 
 describe('ProductService', () => {
